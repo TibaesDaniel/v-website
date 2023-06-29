@@ -1,0 +1,28 @@
+.about{
+    text-align: center;
+}
+.about h1{
+    padding-left: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+.subTitle{
+    margin-bottom: 2rem;
+}
+.aboutBox p{
+    color: rgb(197, 197, 197);
+}
+.aboutContainer{
+    display: flex;
+    
+}
+.aboutLeft{
+    border: 1px solid;
+    border-color: transparent rgb(88, 88, 88) transparent transparent;
+    padding-inline: 2rem;
+    text-align: end;
+}
+.aboutRight{
+    padding-inline: 2rem;
+    text-align: start;
+}
