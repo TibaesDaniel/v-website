@@ -6,5 +6,41 @@
   width: 90%;
   margin: auto;
 }
-
+.gridImg{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5rem;
+  justify-content: center;
+  margin-block: 7rem;
+}
+.card{
+  width: 30rem;
+  height: 25rem;
+  
+}
+.img1{
+  background-image: url(./assets/img/cards1.jpg);
+  background-size: cover;
+}
+.img2{
+  background-image: url(./assets/img/cards2.jpg);
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+.img3{
+  background-image: url(./assets/img/cards3.jpg);
+  background-size: cover;
+}
+.img4{
+  background-image: url(./assets/img/cards3.jpg);
+  background-size: cover;
+  width: 47rem;
+  height: 25rem;
+}
+.img5{
+  background-image: url(./assets/img/cards3.jpg);
+  background-size: cover;
+  width: 47rem;
+  height: 25rem;
+}
 

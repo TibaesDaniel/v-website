@@ -1,0 +1,27 @@
+.websiteContent{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    display: flex;
+    width: 95%;
+    justify-content: center;
+}
+.box div{
+    width: 50%;
+    padding-inline: 7rem;
+}
+.box p,li{
+    color: rgb(197, 197, 197);
+}
+.box h1, p{
+    margin-bottom: 2rem;
+}
+.contentLeft{
+    text-align: right;
+    border: 1px solid;
+    border-color: transparent black transparent transparent;
+}
+.contentRight{
+    text-align: left;
+}
