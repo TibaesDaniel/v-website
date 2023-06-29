@@ -28,3 +28,19 @@
 .contentRight{
     text-align: left;
 }
+@media (min-width:400px) and (max-width: 800px){
+    .box{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        justify-content: center;
+    }
+    .contentLeft{
+        border: none;
+    }
+    .contentRight{
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+    }
+}
