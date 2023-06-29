@@ -1,0 +1,16 @@
+.exploring{
+    margin-bottom: 7rem;
+}
+.boxExploring{
+    text-align: center;
+}
+.boxExploring p{
+    color: rgb(197, 197, 197);
+}
+.boxExploring h1{
+    margin-bottom: 1rem;
+}
+.boxText{
+    width: 70%;
+    margin: auto;
+}

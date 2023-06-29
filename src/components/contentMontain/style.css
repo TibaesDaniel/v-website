@@ -14,7 +14,10 @@
 .box p,li{
     color: rgb(197, 197, 197);
 }
-.box h1, p{
+.box h1{
+    margin-bottom: 2rem;
+}
+.box p{
     margin-bottom: 2rem;
 }
 .contentLeft{
