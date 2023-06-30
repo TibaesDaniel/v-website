@@ -42,3 +42,38 @@
     font-size: 2rem;
     color: white;
 }
+@media (min-width:746px) and (max-width:944px){
+    .logo{
+        font-size: 4rem;
+    }
+    .text h1{
+        width: 350px;
+        font-size: 5rem;
+        line-height: 7.5rem;
+        margin-bottom: 1rem;
+    }
+    .text p{
+        font-size: 1rem;
+    }
+    .text a{
+        font-size: 1.5rem;
+    }
+}
+@media (max-width:428px){
+    .logo{
+        font-size: 3.5rem;
+    }
+    .text h1{
+        width: 320px;
+        font-size: 4.5rem;
+        line-height: 6.5rem;
+        margin-bottom: 1rem;
+    }
+    .text p{
+        max-width: 60%;
+        font-size: 1rem;
+    }
+    .text a{
+        font-size: 1.5rem;
+    }
+}

@@ -28,7 +28,7 @@
 .contentRight{
     text-align: left;
 }
-@media (min-width:400px) and (max-width: 800px){
+@media (min-width:429px) and (max-width:944px){
     .box{
         display: flex;
         flex-direction: column;
@@ -39,8 +39,38 @@
         border: none;
     }
     .contentRight{
+        margin-left: 40%;
+        margin-block: 3rem;
+    }
+}
+@media (min-width:320px) and (max-width:428px){
+    .websiteContent{
+        justify-content: left;
+    }
+    .box{
         display: flex;
         flex-direction: column;
-        justify-content: right;
+    }
+    .box div{
+        width: 80%;
+        padding: 2.5rem;
+        
+    }
+    .contentLeft{
+        text-align: left;
+        border: none;
+    }
+    .contentRight{
+        text-align: left;
+        margin-left: 0;
+    }
+    .box div{
+        padding-inline: 3rem;
+    }
+    .contentRight{
+      margin-block: 0rem;
+    }
+    .contentLeft{
+        margin-top: -3rem;
     }
 }

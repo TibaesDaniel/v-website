@@ -26,3 +26,34 @@
     padding-inline: 2rem;
     text-align: start;
 }
+@media (min-width:400px) and (max-width:944px){
+    .about h1{
+        font-size: 3.2rem;
+    }
+    .aboutBox p {
+        font-size: 1.3rem;
+    }
+}
+@media(max-width:428px){
+    .about{
+        text-align: left;
+    }
+    .about h1{
+        padding-left: 2rem;
+        margin-top: 4rem;
+        margin-bottom: 1rem;
+    }
+    .subTitle{
+        margin-bottom: 2rem;
+        padding-left: 2rem;
+    }
+    .aboutContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .aboutLeft{
+        border: none;
+        text-align: left;
+    }
+}

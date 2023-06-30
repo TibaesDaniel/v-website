@@ -21,3 +21,31 @@
 .copyFooter{
     font-size: 1.3rem;
 }
+@media (min-width:746px) and (max-width:944px){
+    .footer{
+        padding-inline: 22rem;
+    }
+    .logoFooter{
+        font-size: 5rem;
+    }
+    .textFooter{
+        font-size: 1.2rem;
+    }
+    .copyFooter{
+        font-size: 1rem;
+    }
+}
+@media (max-width:428px){
+    .logoFooter{
+        font-size: 5rem;
+    }
+    .textFooter{
+        font-size: 1rem;
+    }
+    .copyFooter{
+        font-size: 1rem;
+    }
+    .footer{
+        padding-inline: 5rem;
+    }
+}   
