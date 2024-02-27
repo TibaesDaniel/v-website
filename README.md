@@ -39,4 +39,3 @@ Não há problemas conhecidos ou limitações a reportar.
 
 ---
 
-Este README é um ponto de partida para qualquer um que esteja interessado em aprender mais sobre o V-WebSite. Se você tiver alguma dúvida, não hesite em entrar em contato.
